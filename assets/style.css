@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Navbar {
+    text-align: center;
+    background-color: #9e9e9ec2;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.photo nav {
+    display: inline-block;
+    text-align: center;
+}
+
+.img {
+    display: block;
+    margin: 0 auto 10px;
+    width: 20px;
+    height: 30px;
+
+}
+
+
+
+.center {
+    border-radius: 50%;
+    width: 200px;
+
+}
+
+.hero h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+.hero h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.hero h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid #ebe7e7;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+
+.all-secation {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.ContactMe-Sec h3,
+.FollowMe-sec h3,
+.exp h3,
+.edu h3 {
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    margin: 10px;
+
+
+}
+
+.ContactMe-Sec .cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding-bottom: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+.ContactMe-Sec .cont div {
+
+    background-color: #361bd1;
+    border: 1px solid #ccc;
+    padding: 40px;
+
+
+
+}
+
+.ContactMe-Sec .cont div a {
+    color: white;
+
+
+}
+
+.exp,
+.edu,
+.prog,
+.inter {
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+    gap: 20px;
+
+}
+
+.box p {
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    flex: 1 1 0;
+    margin: 10px;
+    color: white;
+    background-color: rgb(44, 60, 208);
+    text-align: center;
+
+
+}
+
+.exp .box,
+.edu .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.exp .box p,
+.edu .box p {
+    flex: 1;
+    min-height: 100px;
+}
+
+.prog .box,
+.inter .box {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.prog .box p,
+.inter .box p {
+    flex: 1;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.prog .xx {
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.inter .xx {
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    height: 40px;
+    margin: auto;
+    border: 1px solid #8f8d8d;
+   
+}
